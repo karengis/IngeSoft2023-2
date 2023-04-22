@@ -33,5 +33,6 @@ def index (request):
     varEstudiante3=Estudiante.objects.filter(grupo=3, edad=22 )
     
     varTodosEstudiantes= Estudiante.objects.all()
+    
 
     return render (request, 'index.html',{'varEstudiante':varEstudiante,'varEstudiante2':varEstudiante2,'varApellido': varApellido,'varApellido2': varApellido2,'varApellido3': varApellido3,'varApellido4': varApellido4,  'varTodosEstudiantes':varTodosEstudiantes,'mismaedad':mismaedad, 'varEstudiante3': varEstudiante3,'mismoapellido':mismoapellido})

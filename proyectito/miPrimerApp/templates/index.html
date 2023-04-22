@@ -43,30 +43,41 @@
                     <div class="col-lg-8">
                         <h2>Consultas BD</h2>
                         <p class="lead">Grupo 1</p>
+                        
                         {%for i in varEstudiante %}
-                        {{i}} <br>
+
+                        <div class="card " style="width: 18rem;">
+                            <img src="{{i.imagen}}" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">{{i.nombres}} {{i.apellidos}}</h5>
+                              <h5 class="card-title">Numero de cuenta:{{i.numCta}}</h5>
+                              <h5 class="card-title"> edad:{{i.edad}}</h5>
+                              <h5 class="card-text"> el estudiante pertenece al grupo {{i.grupo.id_grupo}}</p>
+                             
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                          </div>
+
                         {%endfor%}s
+
+                       
 
                         <p class="lead">Grupo 4</p>
                         {%for i in varEstudiante2 %}
-                        {{i}} <br>
+
+                        <div class="card " style="width: 18rem;">
+                            <img src="{{i.imagen}}" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">{{i.nombres}} {{i.apellidos}}</h5>
+                              <h5 class="card-title">Numero de cuenta:{{i.numCta}}</h5>
+                              <h5 class="card-title"> edad:{{i.edad}}</h5>
+                              <h5 class="card-text"> el estudiante pertenece al grupo {{i.grupo.id_grupo}}</p>
+                             
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                          </div>
                         {%endfor%}
-                        <p class="lead">Mismo apellido</p>
-                        {%for i in mismoapellido %}
-                        {{i}} <br>
-                        {%endfor%}
-                        {%for i in varApellido %}
-                        {{i}} <br>
-                        {%endfor%}
-                        {%for j in varApellido2 %}
-                        {{j}} <br>
-                        {%endfor%}
-                        {%for k in varApellido3 %}
-                        {{k}} <br>
-                        {%endfor%}
-                        {%for l in varApellido4 %}
-                        {{l}} <br>
-                        {%endfor%}
+                        
                         
                         <p class="lead">Misma edad</p>
                         {%for i in mismaedad %}

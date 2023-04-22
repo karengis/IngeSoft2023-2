@@ -18,7 +18,8 @@
         "nombres": "Luis",
         "apellidos": "Mendoza",
         "edad": 22,
-        "grupo_id": 1
+        "grupo_id": 1,
+        "imagen":"https://upload.wikimedia.org/wikipedia/commons/2/27/Michael_B._Jordan_Cannes_2018.jpg"
     }
 },
 {
@@ -30,6 +31,7 @@
         "apellidos": "Landaverde",
         "edad": 22,
         "grupo_id": 3
+
     }
 },
 {
@@ -51,7 +53,8 @@
         "nombres": "Andrea",
         "apellidos": "Cano",
         "edad": 24,
-        "grupo_id": 1
+        "grupo_id": 1,
+        "imagen":"https://upload.wikimedia.org/wikipedia/commons/3/31/Emma_Stone_at_Maniac_UK_premiere_%28cropped%29.jpg"
     }
 },
 {
@@ -62,7 +65,8 @@
         "nombres": "Emiliano",
         "apellidos": "Galeana",
         "edad": 24,
-        "grupo_id": 4
+        "grupo_id": 4,
+        "imagen":"https://upload.wikimedia.org/wikipedia/commons/0/0a/Robert_Downey_Jr_avp_Iron_Man_3_Paris.jpg"
     }
 },
 {
@@ -73,7 +77,8 @@
         "nombres": "Cristian",
         "apellidos": "Alonso",
         "edad": 20,
-        "grupo_id": 3
+        "grupo_id": 3,
+        "imagen":"https://upload.wikimedia.org/wikipedia/commons/e/e8/Chris_Hemsworth_by_Gage_Skidmore_2_%28cropped%29.jpg"
     }
 },
 {
@@ -95,7 +100,8 @@
         "nombres": "Jonathan",
         "apellidos": "Gómez",
         "edad": 21,
-        "grupo_id": 4
+        "grupo_id": 4,
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/6/6e/BCumberbatch_Comic-Con_2019.jpg"
     }
 },
 {
@@ -128,7 +134,9 @@
         "nombres": "Alex",
         "apellidos": "Landaverde",
         "edad": 25,
-        "grupo_id": 1
+        "grupo_id": 1 ,
+        "imagen":"https://upload.wikimedia.org/wikipedia/commons/3/3c/Tom_Holland_by_Gage_Skidmore.jpg"
+        
     }
 },
 {
@@ -150,7 +158,8 @@
         "nombres": "Daniel",
         "apellidos": "Nuñes",
         "edad": 25,
-        "grupo_id": 4
+        "grupo_id": 4,
+        "imagen":"https://upload.wikimedia.org/wikipedia/commons/f/f0/82nd_Academy_Awards%2C_Jeremy_Renner_-_army_mil-66454-2010-03-09-180356.jpg"
     }
 },
 {
@@ -161,7 +170,8 @@
         "nombres": "Miguel",
         "apellidos": "Mendoza",
         "edad": 21,
-        "grupo_id": 4
+        "grupo_id": 4,
+        "imagen":"https://upload.wikimedia.org/wikipedia/commons/1/11/Mark_Ruffalo_%2836201774756%29_%28cropped%29.jpg"
     }
 },
 {
@@ -172,7 +182,8 @@
         "nombres": "Alejandra",
         "apellidos": "Landaverde",
         "edad": 23,
-        "grupo_id": 1
+        "grupo_id": 1,
+        "imagen":"https://upload.wikimedia.org/wikipedia/commons/0/0e/Chris_Evans_-_Captain_America_2_press_conference_%28cropped%29.jpg"
     }
 },
 {
@@ -205,7 +216,9 @@
         "nombres": "Alexis",
         "apellidos": "Villafuente",
         "edad": 22,
-        "grupo_id": 1
+        "grupo_id": 1,
+        "imagen":"https://upload.wikimedia.org/wikipedia/commons/8/84/Harry_Styles_Wembley_June_2022_%28cropped%29.jpg"
+
     }
 },
 {
@@ -216,7 +229,9 @@
         "nombres": "Valeria",
         "apellidos": "Enri",
         "edad": 19,
-        "grupo_id": 4
+        "grupo_id": 4,
+        "imagen":"https://upload.wikimedia.org/wikipedia/commons/6/60/Scarlett_Johansson_by_Gage_Skidmore_2_%28cropped%29.jpg"
+        
     }
 }
 ]

@@ -11,7 +11,9 @@ class  Estudiante(models.Model):
   edad = models.IntegerField(default=0, max_length=3)
   # Cada estudiante guarda el grupo en el que está inscrito
   grupo  =  models.ForeignKey(Grupo, on_delete=models.SET_NULL, null=True)
+  
+  imagen= models.CharField(default=' ' ,max_length=1000)
 
   def __str__ (self):
-     return f'Nombre:{self.nombres}, NumCta:{self.numCta}, Apellido:{self.apellidos}, Edad:{self.edad}, Grupo:{self.grupo.id_grupo}'
+     return f'Nombre:{self.nombres}, NumCta:{self.numCta}, Apellido:{self.apellidos}, Edad:{self.edad}, Grupo:{self.grupo.id_grupo}, Imagen:{self.imagen}'
      
